@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - World Food Programme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Make a Donation For the World food Programme</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Support Our Cause</h2>
+            <p>Your donations help us provide food, resources, and support to communities in need, particularly in Mutare, Zimbabwe. Together, we can work towards a world with zero hunger.</p>
+        </section>
+
+        <section>
+            <h3>Donation Form</h3>
+            <form id="donation-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                
+                <label for="account number">Account number:</label>
+                <input type="number"id="account number"required placeholder="Enter  account number"
+
+                <label for="amount">Donation Amount (USD):</label>
+                <input type="number" id="amount" name="amount" required placeholder="Enter the amount">
+
+                <label for="payment-method">Select Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="ecocash-zwd">EcoCash (ZWL)</option>
+                    <option value="ecocash-usd">EcoCash (USD)</option>
+                    <option value="visa">Visa</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                    <option value="physical-transfer">Physical Transfer</option>
+                </select>
+
+                <div id="payment-details">
+                    <h4>Payment Details</h4>
+                    <p>For bank transfers, use the following details:</p>
+                    <p>Account Name: World Food Programme</p>
+                    <p>Bank: ABC Bank</p>
+                    <p>Account Number: 0023467489194</p>
+                </div>
+
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 World Food Programme | Mutare Branch</p>
+    </footer>
+
